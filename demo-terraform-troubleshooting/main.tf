@@ -45,9 +45,12 @@ resource "aws_instance" "web_app" {
  tags = {
     Name = $var.name-learn
   }
-}
+}      
 
-resource "aws_security_group" "sg_ping" {
+
+
+resou
+rce "aws_security_group" "sg_ping" {
   name = "Allow Ping"
 
   ingress {
